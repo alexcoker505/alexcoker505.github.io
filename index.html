@@ -3,51 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <title>Alex Coker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header>
-    <h1>Alex Coker</h1>
-    <p>Physics Student | Software Developer | Engineering Projects</p>
-</header>
+<main>
 
-<section>
-    <h2>Projects</h2>
-    <p>Add your project descriptions here.</p>
-</section>
+    <!-- Hero -->
+    <section>
+        <h1>Alex Coker</h1>
+        <p>
+            Physics student and robotics-focused engineer working at the intersection of
+            software, hardware, and applied research.
+        </p>
+    </section>
 
-<section>
-    <h2>Research</h2>
-    <p>Add your research experience here.</p>
-</section>
+    <!-- Projects -->
+    <section>
+        <h2>Projects</h2>
 
-<section>
-    <h2>Awards</h2>
-
-    <div class="award">
-        <img
-            src="assets/images/greengro.jpg"
-            alt="UNM Rainforest Pitch Competition"
-            class="award-image"
-        >
-
-        <div class="award-text">
-            <h3>UNM Rainforest Pitch Competition</h3>
-            <p>
-                Participated in the UNM Rainforest pitch competition, presenting a technology commercialization concept
-                focused on environmental and health applications. Gained experience in technical pitching,
-                market validation, and interdisciplinary collaboration.
-            </p>
+        <div class="card reveal">
+            <div class="card-media">
+                <img src="assets/images/project1.png" alt="Project Screenshot">
+            </div>
+            <div class="card-content">
+                <h3>Syllabuddy</h3>
+                <p>
+                    AI-powered curriculum generation platform designed to help homeschool families
+                    build structured, personalized learning paths using placement tests and adaptive content.
+                </p>
+            </div>
         </div>
-    </div>
-</section>
 
+        <div class="card card-reverse reveal">
+            <div class="card-media">
+                <img src="assets/images/project2.png" alt="Robotics Project">
+            </div>
+            <div class="card-content">
+                <h3>Robotics & Embedded Systems</h3>
+                <p>
+                    Built and programmed robotics systems using Raspberry Pi and Arduino,
+                    integrating sensors, motion control, and custom software pipelines.
+                </p>
+            </div>
+        </div>
+    </section>
 
+    <!-- Awards -->
+    <section>
+        <h2>Awards & Recognition</h2>
 
-<footer>
-    <p>© 2026 Alex Coker</p>
-</footer>
+        <div class="card reveal">
+            <div class="card-media">
+                <img src="assets/images/rainforest_pitch.png" alt="UNM Rainforest Pitch Competition">
+            </div>
+            <div class="card-content">
+                <h3>UNM Rainforest Pitch Competition</h3>
+                <p>
+                    Presented a technology commercialization concept focused on environmental and
+                    health applications. Emphasis on technical pitching, market validation,
+                    and interdisciplinary collaboration.
+                </p>
+            </div>
+        </div>
+    </section>
 
+</main>
+
+<script src="script.js"></script>
 </body>
 </html>
